@@ -96,3 +96,29 @@ input:user-invalid {
 .swiper-pagination-bullet-active {
     background: #3e281b !important;
 }
+
+/* -------------- */
+
+.bgtreatments {
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/treatments.avif) center/cover no-repeat;
+}
+
+.bgPatientTestimonials {
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/PatientTestimonials.avif) center/cover no-repeat;
+}
+
+.bgPublications {
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/Publications.avif) center/cover no-repeat;
+}
+
+.bgAbout {
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/About.avif) center/cover no-repeat;
+}
+
+.bgTreatmentRateSchedule {
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/TreatmentRateSchedule.avif) center/cover no-repeat;
+}
+
+.bgContact {
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/Contact.avif) center/cover no-repeat;
+}
