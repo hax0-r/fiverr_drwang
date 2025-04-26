@@ -6,7 +6,7 @@ navbar.innerHTML = `
         <div class="">
             <div class="flex p-5 items-center justify-between">
                 <a href="./index.html">
-                    <h2 class="uppercase font-medium text-2xl text-nowrap">Logo</h2>
+                    <img src="/Docs/Assets/main-logo.png" class="h-8" alt="">
                 </a>
                 <i id="closeNav" class="fa-solid fa-x text-xl"></i>
             </div>
@@ -37,7 +37,7 @@ navbar.innerHTML = `
         <div class="bg-white w-full h-20 flex items-center justify-center ">
             <div class="flex items-center justify-between max-w-7xl w-full mx-auto p-5">
                 <a href="./index.html">
-                    <h2 class="uppercase font-medium text-2xl">Logo</h2>
+                    <img src="/Docs/Assets/main-logo.png" class="md:h-12 h-8" alt="">
                 </a>
                 <div class="flex items-center gap-3">
                     <ul class="hidden items-center justify-center gap-6 text-gray-800 lg:flex ">
