@@ -100,7 +100,7 @@ input:user-invalid {
 /* -------------- */
 
 .bgtreatments {
-    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/treatments.avif) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/Treatment_banner.jpg) center/cover no-repeat;
 }
 
 .bgPatientTestimonials {
@@ -108,7 +108,7 @@ input:user-invalid {
 }
 
 .bgPublications {
-    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/Publications.avif) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/Publication_banner.jpg) center/cover no-repeat;
 }
 
 .bgAbout {

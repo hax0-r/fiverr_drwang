@@ -21,34 +21,54 @@
     <div id="bottomToTopScroll"></div>
     <div id="navbar"></div>
 
-
-
-
-
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper ">
-            <div class="swiper-slide">
-                <a href="">
-                    <img src="/Docs/Assets/home/slide-1.jpg" class="w-full " alt="">
+    <div class="flex md:flex-row flex-col md:h-[calc(100vh-6rem)] md:mt-0 mt-10 gap-7 md:gap-0">
+        <div class="lg:max-w-[25%] p-5 w-full flex items-center justify-center flex-col ">
+            <div class="md:-mr-96 z-20">
+                <a href="./index.html">
+                    <img src="./Docs/Assets/main-logo.png" class="h-10" alt="">
                 </a>
-            </div>
-            <div class="swiper-slide">
-                <a href="">
-                    <img src="/Docs/Assets/home/slide-2.jpg" class="w-full " alt="">
-                </a>
-            </div>
-            <div class="swiper-slide">
-                <a href="">
-                    <img src="/Docs/Assets/home/slide-3.jpg" class="w-full " alt="">
-                </a>
-            </div>
-            <div class="swiper-slide">
-                <a href="">
-                    <img src="/Docs/Assets/home/slide-4.jpg" class="w-full " alt="">
-                </a>
+                <div class="md:mt-10 mt-5 max-w-[20rem] w-full mx-auto flex justify-center">
+                    <p class="font-semibold [writing-mode:vertical-rl] text-center">やさしい漢方を</p>
+                    <p class="font-semibold [writing-mode:vertical-rl] text-center ml-4">こころとからだに</p>
+                    <p class="font-semibold [writing-mode:vertical-rl] text-center ml-4">くらしのそばに、</p>
+                </div>
             </div>
         </div>
-        <div class="swiper-pagination"></div>
+        <div class="md:max-w-[75%] relative w-full">
+            <div class="absolute md:block hidden top-0 left-0 w-40 z-10 md:h-[calc(100vh-6rem)]"
+                style="background: linear-gradient(to right, rgb(255, 255, 255),rgba(255, 255, 255, 0.514), rgba(255, 255, 255, 0));">
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="/Docs/Assets/home/slide-1.jpg"
+                                class="w-full md:h-[calc(100vh-6rem)] object-cover " alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="/Docs/Assets/home/slide-2.jpg"
+                                class="w-full md:h-[calc(100vh-6rem)] object-cover " alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="/Docs/Assets/home/slide-3.jpg"
+                                class="w-full md:h-[calc(100vh-6rem)] object-cover " alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="/Docs/Assets/home/slide-4.jpg"
+                                class="w-full md:h-[calc(100vh-6rem)] object-cover " alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
     </div>
 
     <div class="grid md:grid-cols-3 sm:grid-cols-2 max-w-7xl w-full mx-auto p-5 grid-cols-1 md:mt-16 mt-10 gap-6 ">
@@ -85,8 +105,6 @@
         </p>
     </section>
 
-
-
     <section
         class="max-w-7xl bg-zinc-100 w-full mx-auto p-5 md:mt-16 mt-10 flex items-center justify-start md:py-20 rounded-3xl gap-10 flex-col">
         <img src="/Docs/Assets/home/award-2017-orange.png" class="" alt="">
@@ -113,69 +131,6 @@
         </p>
     </section>
 
-    <section class="max-w-7xl w-full mx-auto p-5 md:mt-16 mt-10">
-        <h2 class="md:text-4xl mt-8 md:mt-12 text-2xl font-medium text-gray-800 text-center mb-8">Testimonials </h2>
-        <div class="grid md:grid-cols-2 gap-5">
-            <div
-                class="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-[#3e281b]">
-                <div class="">
-                    <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                    </div>
-                    <p
-                        class="text-base text-gray-600 leading-6  transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
-                        I highly recommend Dr. Wang. This was my first experience with Chinese medicine, and Dr. Wang
-                        was very thorough, and helped me with various health problems when my normal GP doctors could
-                        not help. I am extremely grateful for his practice.
-                    </p>
-                </div>
-                <div class="flex items-center gap-3 border-t border-solid border-gray-200 pt-5">
-                    <img class="rounded-full h-10 w-10 object-cover"
-                        src="https://pagedone.io/asset/uploads/1696229994.png" alt="avatar" />
-                    <div class="block">
-                        <h5 class="text-gray-900 font-medium transition-all duration-500 ">A. Viviano, Surrey</h5>
-                        <span class="text-sm leading-4 text-gray-500">CEO </span>
-                    </div>
-                </div>
-            </div>
-            <div
-                class="group bg-white border border-solid border-gray-300 rounded-xl p-6 transition-all duration-500  w-full mx-auto hover:border-[#3e281b]">
-                <div class="">
-                    <div class="flex items-center mb-7 gap-2 text-amber-500 transition-all duration-500  ">
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                        <i class="fa-solid fa-star text-yellow-500"></i>
-                    </div>
-                    <p
-                        class="text-base text-gray-600 leading-6  transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800">
-                        I had problem with my Ernie(herniated) disc and sciatica nerve then I went to see Dr. Wong. Only
-                        after few treatments I started feeling the difference. After couple of months treatments I feel
-                        like I am almost back to normal. I highly recommend Dr. Wong to anyone.
-                    </p>
-                </div>
-                <div class="flex items-center gap-3 border-t border-solid border-gray-200 pt-5">
-                    <img class="rounded-full h-10 w-10 object-cover"
-                        src="https://pagedone.io/asset/uploads/1696230027.png" alt="avatar" />
-                    <div class="block">
-                        <h5 class="text-gray-900 font-medium transition-all duration-500 ">Lynne M., Abbotsford</h5>
-                        <span class="text-sm leading-4 text-gray-500">BC</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="flex items-center justify-center mt-7">
-            <a href=""
-                class="bg-[#3e281b] px-10 py-3 transition-all duration-500 hover:opacity-80 rounded-lg text-white">View
-                More</a>
-        </div>
-    </section>
-
     <section
         class="max-w-6xl w-full mx-auto p-5 md:mt-24 mt-10 flex items-center justify-start md:gap-20 gap-8 md:flex-row flex-col">
         <p class="md:text-xl text-gray-800 md:max-w-[50%] w-full"><span class="font-medium">Clinic Hours &
@@ -189,10 +144,150 @@
         <img src="/Docs/Assets/home/map.jpg" class="md:max-w-[50%] w-full" alt="">
     </section>
 
+    <!-- <div class="md:mt-20 mt-8" id="footer"></div> -->
 
 
+    <footer class="bg-gray-50 md:p-10 p-5 py-10 md:py-16">
 
-    <div class="md:mt-20 mt-8" id="footer"></div>
+        <div class="flex items-center justify-center flex-col gap-5">
+            <div class="md:hidden flex flex-col items-center justify-center gap-5 ">
+                <a href="/index.html" class="">
+                    <img src="/Docs/Assets/main-logo.png" class="h-10" alt="">
+                </a>
+                <a href="/index.html" class="">
+                    <img src="/Docs/Assets/home/award-2017-orange.png" class="h-32" alt="">
+                </a>
+            </div>
+
+            <ul class="space-y-2 flex gap-x-10 gap-y-4 justify-center items-center flex-wrap">
+                <li><a href="/index.html" class="hover:opacity-60 transition-all duration-500 ">
+                        Home</a></li>
+                <li><a href="/about.html" class="hover:opacity-60 transition-all duration-500 ">
+                        About</a></li>
+                <li><a href="/case-reports.html" class="hover:opacity-60 transition-all duration-500 ">
+                        Case Reports</a></li>
+                <li><a href="/treatments.html" class="hover:opacity-60 transition-all duration-500 ">
+                        Treatments</a></li>
+                <li><a href="/testimonials.html" class="hover:opacity-60 transition-all duration-500 ">
+                        Testimonials</a></li>
+                <li><a href="/publications.html" class="hover:opacity-60 transition-all duration-500 ">
+                        Publications</a></li>
+                <li><a href="/fees.html" class="hover:opacity-60 transition-all duration-500 ">
+                        Fees</a></li>
+                <li><a href="/contact.html" class="hover:opacity-60 transition-all duration-500 ">
+                        Contact</a></li>
+            </ul>
+        </div>
+
+        <div
+            class="max-w-7xl w-full md:mt-16 mt-7 mx-auto flex justify-center items-start md:flex-row flex-col gap-10 ">
+            <div class="flex gap-10 lg:flex-row flex-col md:items-start md:justify-start items-center justify-center">
+
+                <div class="md:flex hidden flex-col items-center justify-center gap-5 ">
+                    <a href="/index.html" class="">
+                        <img src="/Docs/Assets/main-logo.png" class="h-10" alt="">
+                    </a>
+                    <a href="/index.html" class="">
+                        <img src="/Docs/Assets/home/award-2017-orange.png" class="h-32" alt="">
+                    </a>
+                </div>
+
+                <div class="">
+                    <div class="border-gray-400 rounded-lg overflow-hidden border">
+                        <table class="text-center text-xs">
+                            <thead>
+                                <tr class="border-b border-gray-400">
+                                    <th class="w-20 p-2 border-r border-gray-400">
+                                    </th>
+                                    <th class="w-16 p-2 border-r border-gray-400">月
+                                    </th>
+                                    <th class="w-16 p-2 border-r border-gray-400">火
+                                    </th>
+                                    <th class="w-16 p-2 border-r border-gray-400">水
+                                    </th>
+                                    <th class="w-16 p-2 border-r border-gray-400">木
+                                    </th>
+                                    <th class="w-16 p-2 border-r border-gray-400">金
+                                    </th>
+                                    <th class="w-16 p-2">土</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Morning Row -->
+                                <tr class="border-b border-gray-400">
+                                    <td class="p-2 border-r border-gray-400">
+                                        9:00-12:30</td>
+                                    <td class="p-2 border-r border-gray-400">🔵</td>
+                                    <td class="p-2 border-r border-gray-400">／</td>
+                                    <td class="p-2 border-r border-gray-400">
+                                        (🔵)<br><span class="text-xs text-gray-500">※第2週のみ</span>
+                                    </td>
+                                    <td class="p-2 border-r border-gray-400">🔵</td>
+                                    <td class="p-2 border-r border-gray-400">
+                                        (🔵)<br><span class="text-xs text-gray-500">※第1週のみ</span>
+                                    </td>
+                                    <td class="p-2">🔵</td>
+                                </tr>
+
+                                <!-- Afternoon Row -->
+                                <tr>
+                                    <td class="p-2 border-r border-gray-400">
+                                        14:30-17:30
+                                    </td>
+                                    <td class="p-2 border-r border-gray-400">／</td>
+                                    <td class="p-2 border-r border-gray-400">／</td>
+                                    <td class="p-2 border-r border-gray-400">
+                                        (🔵)<br><span class="text-xs text-gray-500">※第2週のみ</span>
+                                    </td>
+                                    <td class="p-2 border-r border-gray-400">🔵</td>
+                                    <td class="p-2 border-r border-gray-400">🔵</td>
+                                    <td class="p-2">／</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="text-xs text-gray-600 mt-3 md:text-start text-center">休診日 火・水
+                        (第1.3.5週)・日・祝日</p>
+                </div>
+            </div>
+            <div class="">
+                <p>
+                    ※当院は予約制となっております <br>
+                    113-0022 <br>
+                    東京都文京区千駄木3-40-17 <br>
+                    CASA VERDE 2F <br>
+                    <a href="tel:+0363145944"
+                        class="text-[#59312c] block my-2 bg-white rounded-full py-1 px-3 border w-48 text-center">TEL.
+                        03-6314-5944</a>
+                    漢方内科 / 内科 / 心療内科
+                </p>
+                <div class="flex items-center justify-center mt-3">
+                    <a href="https://www.google.com/search?q=your+business+name+reviews" target="_blank"
+                        class="flex items-center space-x-3 hover:opacity-70 transition-all duration-500">
+                        <!-- Google Logo -->
+                        <img src="./Docs/Assets/home/Google__G__logo.svg.png" alt="Google logo" class="w-6 h-6">
+
+                        <!-- Review Info -->
+                        <div class="text-sm text-gray-800">
+                            <div class="flex items-center space-x-1">
+                                <!-- Star Icons -->
+                                <div class="flex text-yellow-400">
+                                    ★★★★★
+                                </div>
+                                <span class="font-semibold text-gray-900">4.8</span>
+                                <span class="text-gray-500">(320 reviews)</span>
+                            </div>
+                            <span class="underline text-blue-600">Read our Google Reviews</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="">
+                <h3 class="text-sm mb-5">Clinic Hours & Address:</h3>
+                <img src="./Docs/Assets/home/map.jpg" class="h-20" alt="">
+            </div>
+        </div>
+    </footer>
 
     <script src="./Docs/javascript/Navbar.js"></script>
     <script src="./Docs/javascript/Footer.js"></script>
