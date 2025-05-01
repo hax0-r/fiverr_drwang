@@ -135,6 +135,10 @@ footer.innerHTML = `
                     </a>
                 </div>
             </div>
+            <div class="">
+                <h3 class="text-sm mb-5">Clinic Hours & Address:</h3>
+                <img src="./Docs/Assets/home/map.jpg" class="md:w-32 w-full" alt="">
+            </div>
         </div>
     </footer>
     <div
