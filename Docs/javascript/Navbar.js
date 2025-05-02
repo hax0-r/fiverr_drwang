@@ -76,7 +76,7 @@ navbar.innerHTML = `
                                 class=" hover:opacity-60 md:text-lg transition-all duration-500">Contact</a>
                         </li>
                     </ul>
-
+                    <!--  
                     <div class="max-w-[20rem] w-full md:mt-10 mt-8">
                         <a href="">
                             <button
@@ -92,7 +92,7 @@ navbar.innerHTML = `
                         </div>
                     </div>
                     <p class="text-center md:mt-8 mt-4 text-gray-500">CASA VERDE 2F , 3-40-17 Sendagi, Bunkyo-ku, Tokyo
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </div>

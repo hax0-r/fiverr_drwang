@@ -50,39 +50,36 @@ footer.innerHTML = `
                         <table class="text-center text-xs">
                             <thead>
                                 <tr class="border-b border-gray-400">
-                                    <th class="w-20 p-2 border-r border-gray-400">
+                                    <th class="w-20 p-2 border-r border-gray-400">Time</th>
+                                    <th class="w-16 p-2 border-r border-gray-400">Mon
                                     </th>
-                                    <th class="w-16 p-2 border-r border-gray-400">月
+                                    <th class="w-16 p-2 border-r border-gray-400">Tue
                                     </th>
-                                    <th class="w-16 p-2 border-r border-gray-400">火
+                                    <th class="w-16 p-2 border-r border-gray-400">Wed
                                     </th>
-                                    <th class="w-16 p-2 border-r border-gray-400">水
+                                    <th class="w-16 p-2 border-r border-gray-400">Thu
                                     </th>
-                                    <th class="w-16 p-2 border-r border-gray-400">木
+                                    <th class="w-16 p-2 border-r border-gray-400">Fri
                                     </th>
-                                    <th class="w-16 p-2 border-r border-gray-400">金
-                                    </th>
-                                    <th class="w-16 p-2">土</th>
+                                    <th class="w-16 p-2 border-r border-gray-400">Sat</th>
+                                    <th class="w-16 p-2">Sun</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <!-- Morning Row -->
                                 <tr class="border-b border-gray-400">
                                     <td class="p-2 border-r border-gray-400">
-                                        9:00-12:30</td>
+                                        9:00-6:00</td>
                                     <td class="p-2 border-r border-gray-400">🔵</td>
-                                    <td class="p-2 border-r border-gray-400">／</td>
-                                    <td class="p-2 border-r border-gray-400">
-                                        (🔵)<br><span class="text-xs text-gray-500">※第2週のみ</span>
-                                    </td>
                                     <td class="p-2 border-r border-gray-400">🔵</td>
-                                    <td class="p-2 border-r border-gray-400">
-                                        (🔵)<br><span class="text-xs text-gray-500">※第1週のみ</span>
-                                    </td>
+                                    <td class="p-2 border-r border-gray-400">🔵</td>
+                                    <td class="p-2 border-r border-gray-400">🔵</td>
+                                    <td class="p-2 border-r border-gray-400">🔵</td>
+                                    <td class="p-2 border-r border-gray-400">🔵</td>
                                     <td class="p-2">🔵</td>
                                 </tr>
 
-                                <!-- Afternoon Row -->
+                                <!-- Afternoon Row 
                                 <tr>
                                     <td class="p-2 border-r border-gray-400">
                                         14:30-17:30
@@ -95,49 +92,43 @@ footer.innerHTML = `
                                     <td class="p-2 border-r border-gray-400">🔵</td>
                                     <td class="p-2 border-r border-gray-400">🔵</td>
                                     <td class="p-2">／</td>
-                                </tr>
+                                </tr> -->
                             </tbody>
                         </table>
                     </div>
-                    <p class="text-xs text-gray-600 mt-3 md:text-start text-center">休診日 火・水
-                        (第1.3.5週)・日・祝日</p>
+                    <p class="text-xs text-gray-600 mt-3 md:text-start text-center">15532 92A Ave, Surrey B.C., Canada, V3R 9B1</p>
                 </div>
             </div>
             <div class="">
-                <p>
-                    ※当院は予約制となっております <br>
-                    113-0022 <br>
-                    東京都文京区千駄木3-40-17 <br>
-                    CASA VERDE 2F <br>
-                    <a href="tel:+0363145944"
-                        class="text-[#59312c] block my-2 bg-white rounded-full py-1 px-3 border w-48 text-center">TEL.
-                        03-6314-5944</a>
-                    漢方内科 / 内科 / 心療内科
-                </p>
-                <div class="flex items-center justify-center mt-3">
-                    <a href="https://www.google.com/search?q=your+business+name+reviews" target="_blank"
+               
+                <div class="flex items-center justify-center">
+                    <a href="https://www.google.com/search?q=acupuncture+surrey&oq=acup&gs_lcrp=EgZjaHJvbWUqDAgBECMYJxiABBiKBTIGCAAQRRg5MgwIARAjGCcYgAQYigUyDAgCECMYJxiABBiKBTIGCAMQRRg9MgYIBBBFGD0yBggFEEUYPDISCAYQABhDGLEDGMkDGIAEGIoFMgoIBxAAGJIDGIAEMgoICBAAGLEDGIAEMhAICRAuGK8BGMcBGLoCGIAEMgcIChAAGIAEMgcICxAAGIAEMgoIDBAAGLEDGIAEMgoIDRAAGLEDGIAEMgcIDhAAGIAE0gEHODU4ajBqOagCDrACAfEFz-cs9E1geSzxBc_nLPRNYHks&client=ms-android-samsung-ss&sourceid=chrome-mobile&ie=UTF-8#vhid=/g/11b62t81cz&vssid=lcl" target="_blank"
                         class="flex items-center space-x-3 hover:opacity-70 transition-all duration-500">
                         <!-- Google Logo -->
                         <img src="./Docs/Assets/home/Google__G__logo.svg.png" alt="Google logo" class="w-6 h-6">
 
                         <!-- Review Info -->
-                        <div class="text-sm text-gray-800">
+                        <div class="text-sm text-gray-800 mt-2">
                             <div class="flex items-center space-x-1">
                                 <!-- Star Icons -->
                                 <div class="flex text-yellow-400">
                                     ★★★★★
                                 </div>
                                 <span class="font-semibold text-gray-900">4.8</span>
-                                <span class="text-gray-500">(320 reviews)</span>
+                                <span class="text-gray-500 text-xs">(320 reviews)</span>
                             </div>
                             <span class="underline text-blue-600">Read our Google Reviews</span>
                         </div>
                     </a>
                 </div>
-            </div>
-            <div class="">
-                <h3 class="text-sm mb-5">Clinic Hours & Address:</h3>
-                <img src="./Docs/Assets/home/map.jpg" class="md:w-32 w-full" alt="">
+                <div class="mt-6">
+                <img src="./Docs/Assets/home/map.jpg" class="md:w-60 w-full" alt="">
+                </div>
+                 <p>
+                    <a href="tel:+6408323568"
+                        class="text-[#59312c] block mt-5 bg-white rounded-full py-1 px-3 border w-48 text-center">TEL.
+                        640 832 3568</a>
+                </p>
             </div>
         </div>
     </footer>

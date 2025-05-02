@@ -21,8 +21,8 @@
     <div id="bottomToTopScroll"></div>
     <div id="navbar"></div>
 
-    <div class="flex md:flex-row flex-col md:h-[calc(100vh-6rem)] md:mt-0 mt-10 gap-7 md:gap-0">
-        <div class="lg:max-w-[25%] p-5 w-full flex items-center justify-center flex-col ">
+    <div class="flex md:flex-row flex-col md:h-[calc(100vh-6rem)] gap-7 md:gap-0">
+        <!-- <div class="lg:max-w-[25%] p-5 w-full flex items-center justify-center flex-col ">
             <div class="md:-mr-96 z-20">
                 <a href="./index.html">
                     <img src="./Docs/Assets/main-logo.png" class="h-10" alt="">
@@ -33,11 +33,11 @@
                     <p class="font-semibold [writing-mode:vertical-rl] text-center ml-4">くらしのそばに、</p>
                 </div>
             </div>
-        </div>
-        <div class="md:max-w-[75%] relative w-full">
-            <div class="absolute md:block hidden top-0 left-0 w-40 z-10 md:h-[calc(100vh-6rem)]"
+        </div> -->
+        <div class="md:max-w-[100%] relative w-full">
+            <!-- <div class="absolute md:block hidden top-0 left-0 w-40 z-10 md:h-[calc(100vh-6rem)]"
                 style="background: linear-gradient(to right, rgb(255, 255, 255),rgba(255, 255, 255, 0.514), rgba(255, 255, 255, 0));">
-            </div>
+            </div> -->
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper ">
                     <div class="swiper-slide">
@@ -158,7 +158,7 @@
         </p>
     </section>
 
-    <section
+    <!-- <section
         class="max-w-7xl bg-zinc-100 w-full mx-auto p-5 md:mt-16 mt-10 flex items-center justify-start md:py-20 md:rounded-3xl gap-10 flex-col">
         <img src="/Docs/Assets/home/award-2017-orange.png" class="" alt="">
         <p class="md:text-xl text-gray-800 text-center max-w-2xl w-full">Chun-Kai Wang, DTCM is ranked as a top <a
@@ -166,7 +166,7 @@
                 BC</a>
             Verified by Yocale.com
         </p>
-    </section>
+    </section> -->
 
     <section class="max-w-7xl w-full mx-auto p-5 md:mt-16 mt-10">
         <h2 class="md:text-3xl text-2xl font-medium text-gray-800 mb-2">Direct Billing</h2>
@@ -263,7 +263,7 @@
         </section>
     </div>
 
-    <section
+    <!-- <section
         class="max-w-6xl w-full mx-auto p-5 md:mt-24 mt-10 flex items-center justify-start md:gap-20 gap-8 md:flex-row flex-col">
         <p class="md:text-xl text-gray-800 md:max-w-[50%] w-full"><span class="font-medium">Clinic Hours &
                 Address:</span>
@@ -274,9 +274,9 @@
             B.C., Canada, V3R 9B1
         </p>
         <img src="/Docs/Assets/home/map.jpg" class="md:max-w-[50%] w-full" alt="">
-    </section>
+    </section> -->
 
-    <div class="md:mt-20 mt-8" id="footer"></div>
+    <div class="" id="footer"></div>
 
 
 
@@ -289,6 +289,11 @@
 
     <script>
         var swiper = new Swiper(".mySwiper", {
+            effect: "fade",
+            fadeEffect: {
+                crossFade: true, // Optional: smooth transition
+            },
+            speed: 2000,
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -298,12 +303,13 @@
                 hide: true,
             },
             autoplay: {
-                delay: 2500
+                delay: 2500,
             },
             loop: true,
             keyboard: true,
-            dragable: true,
+            draggable: true,
         });
+
     </script>
 
 </body>
