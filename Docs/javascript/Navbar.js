@@ -76,8 +76,8 @@ navbar.innerHTML = `
                                 class=" hover:opacity-60 md:text-lg transition-all duration-500">Contact</a>
                         </li>
                     </ul>
-                    <!--  
-                    <div class="max-w-[20rem] w-full md:mt-10 mt-8">
+ 
+                    <div class="max-w-[20rem] lg:hidden block w-full md:mt-10 mt-8">
                         <a href="">
                             <button
                                 class="md:p-3.5 p-3 w-full bg-[#59312c] text-white rounded-sm font-medium text-lg transition-all duration-500 hover:opacity-80 cursor-pointer">Book
@@ -91,8 +91,8 @@ navbar.innerHTML = `
                                     class="fa-regular text-lg fa-envelope"></i> tcmclinic12@gmail.com</a>
                         </div>
                     </div>
-                    <p class="text-center md:mt-8 mt-4 text-gray-500">CASA VERDE 2F , 3-40-17 Sendagi, Bunkyo-ku, Tokyo
-                    </p> -->
+                    <p class="text-center hidden md:mt-8 mt-4 text-gray-500">CASA VERDE 2F , 3-40-17 Sendagi, Bunkyo-ku, Tokyo
+                    </p> 
                 </div>
             </div>
         </div>
