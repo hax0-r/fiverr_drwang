@@ -1,8 +1,8 @@
 const footer = document.getElementById('footer')
 footer.innerHTML = `
- <footer class="bg-gray-50 md:p-10 p-5 py-10 md:py-16">
+ <footer class="bg-gray-50 md:p-10 p-5 py-10 md:py-16 ">
 
-        <div class="flex items-center justify-center flex-col gap-5">
+        <div class="fle x hidden items-center justify-center flex-col gap-5">
             <ul class="space-y-2 flex gap-x-10 gap-y-4 justify-center items-center flex-wrap">
                 <li><a href="/index.html" class="hover:opacity-60 transition-all duration-500 ">
                         Home</a></li>
@@ -23,7 +23,7 @@ footer.innerHTML = `
             </ul>
         </div>
 
-            <div class="flex max-w-7xl w-full items-start md:mt-16 mt-7 mx-auto justify-between md:flex-row flex-col flex-wrap w-full gap-10">
+            <div class="flex max-w-7xl w-full items-start mx-auto justify-between md:flex-row flex-col flex-wrap w-full gap-10">
 
                 <div class="">
                     <img src="./Docs/Assets/home/map.jpg" class="md:w-96 w-full" alt="">
@@ -38,12 +38,13 @@ footer.innerHTML = `
                         class="text-[#59312c] block bg-white rounded-full py-1 px-3 border w-48 text-center">TEL.
                         640 832 3568</a>
                     <p class="text-gray-700 my-2">tcmclinic12@gmail.com</p>
+                                        <p class="text-gray-700 text-center">Clinic hours: <br>
+                        7 days/week 
+                        10:30am-6pm </p>
                 </div>
 
                 <div class="flex flex-col items-center justify-center gap-2 ">
-                    <p class="text-gray-700">Clinic hours: <br>
-                        7 days/week 
-                        10:30am-6pm </p>
+
                     <div class="flex mb-5 items-center justify-center">
                         <a href="https://www.google.com/search?q=acupuncture+surrey&oq=acup&gs_lcrp=EgZjaHJvbWUqDAgBECMYJxiABBiKBTIGCAAQRRg5MgwIARAjGCcYgAQYigUyDAgCECMYJxiABBiKBTIGCAMQRRg9MgYIBBBFGD0yBggFEEUYPDISCAYQABhDGLEDGMkDGIAEGIoFMgoIBxAAGJIDGIAEMgoICBAAGLEDGIAEMhAICRAuGK8BGMcBGLoCGIAEMgcIChAAGIAEMgcICxAAGIAEMgoIDBAAGLEDGIAEMgoIDRAAGLEDGIAEMgcIDhAAGIAE0gEHODU4ajBqOagCDrACAfEFz-cs9E1geSzxBc_nLPRNYHks&client=ms-android-samsung-ss&sourceid=chrome-mobile&ie=UTF-8#vhid=/g/11b62t81cz&vssid=lcl"
                             target="_blank"
@@ -66,7 +67,7 @@ footer.innerHTML = `
                         </a>
                     </div>
                     <a href="/index.html" class="">
-                        <img src="/Docs/Assets/home/award-2017-orange.png" class="md:h-40 w-full" alt="">
+                        <img src="/Docs/Assets/home/award-2017-orange.png" class="md:h-52 w-full" alt="">
                     </a>
 
 

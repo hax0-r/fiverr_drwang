@@ -1,10 +1,10 @@
 const navbar = document.getElementById("navbar")
 
 navbar.innerHTML = `
-       <div class="w-full">
+       <div class="w-full fixed z-50 top-0 left-0">
         <div class="bg-white flex-col w-full md:h-24 h-40 flex items-center justify-center ">
             <div class="flex items-center justify-between max-w-7xl w-full mx-auto md:p-5 p-3">
-                <a href="./index.html">
+                <a href="./index.html" class="w-full max-w-[20rem]">
                     <img src="/Docs/Assets/main-logo.png" class="md:h-12 h-8" alt="">
                 </a>
                 <div class="flex items-center md:gap-5 gap-1 lg:w-full justify-end">
@@ -45,83 +45,54 @@ navbar.innerHTML = `
         </div>
     </div>
 
-    <div class="hidden" id="resNav">
-        <div class="fixed fastFadeIn top-0 left-0 w-full h-screen bg-white z-50 flex">
-            <div class="lg:max-w-[30%] p-5 w-full lg:flex hidden items-center justify-center flex-col h-screen">
-                <a href="./index.html">
-                    <img src="./Docs/Assets/main-logo.png" class="h-10" alt="">
-                </a>
-                <div class="mt-10 max-w-[20rem] w-full mx-auto flex justify-center">
-                    <p class="font-semibold [writing-mode:vertical-rl] text-center">やさしい漢方を</p>
-                    <p class="font-semibold [writing-mode:vertical-rl] text-center ml-4">こころとからだに</p>
-                    <p class="font-semibold [writing-mode:vertical-rl] text-center ml-4">くらしのそばに、</p>
-                </div>
-            </div>
-            <div class="lg:max-w-[70%] bg-gray-50 w-full">
-                <div id="closeNav"
-                    class="cursor-pointer text-[#59312c] absolute top-5 right-5 flex flex-col items-center ">
-                    <i class="fa-solid fa-x md:text-2xl text-xl"></i>
-                    <p class="text-sm">Close</p>
-                </div>
+      <div id="mobileMenuBg" class="fixed transition-all duration-500 top-0 left-0 w-0 h-full bg-[#0d0d0c] opacity-50 z-50">
+</div>
+<div id="mobileMenu"
+    class="fixed left-0 top-0 bg-white max-w-[30rem] w-0 overflow-hidden h-screen z-50 transition-all duration-500">
 
-                <div class="flex items-center justify-center h-screen p-5 flex-col overflow-auto">
-
-                    <ul class="grid md:grid-cols-2 grid-cols-1 md:gap-10 gap-6 max-w-sm w-full">
-                        <li> <a href="./index.html"
-                                class=" hover:opacity-60 md:text-lg transition-all duration-500">Home</a>
-                        </li>
-                        <li> <a href="./treatments.html"
-                                class=" hover:opacity-60 md:text-lg transition-all duration-500">Treatments</a>
-                        </li>
-                        <li> <a href="./testimonials.html"
-                                class=" hover:opacity-60 md:text-lg transition-all duration-500">Testimonials</a></li>
-                        <li> <a href="./publications.html"
-                                class=" hover:opacity-60 md:text-lg transition-all duration-500">Publications</a></li>
-                        <li> <a href="./case-reports.html"
-                                class=" hover:opacity-60 md:text-lg transition-all duration-500">Case
-                                Reports</a></li>
-                        <li> <a href="./about.html"
-                                class=" hover:opacity-60 md:text-lg transition-all duration-500">About</a>
-                        </li>
-                        <li> <a href="./fees.html"
-                                class=" hover:opacity-60 md:text-lg transition-all duration-500">Fees</a>
-                        </li>
-                        <li> <a href="./contact.html"
-                                class=" hover:opacity-60 md:text-lg transition-all duration-500">Contact</a>
-                        </li>
-                    </ul>
- 
-                    <div class="max-w-[20rem] lg:hidden block w-full md:mt-10 mt-8">
-                        <a href="/contact.html">
-                            <button
-                                class="md:p-3.5 p-3 w-full bg-[#59312c] text-white rounded-sm font-medium text-lg transition-all duration-500 hover:opacity-80 cursor-pointer">Book
-                                Now</button>
-                        </a> 
-                        <div class="text-gray-700 mt-5">
-                            <a href="tel:+6048323568" class="flex text-[15px] justify-center items-center gap-2 hover:underline"><i
-                                    class="fa-solid fa-phone"></i> 604-832-3568</a>
-                            <a href="mailto:tcmclinic12@gmail.com"
-                                class="flex text-[15px] items-center gap-2 hover:underline justify-center mt-1.5"> <i
-                                    class="fa-regular text-lg fa-envelope"></i> tcmclinic12@gmail.com</a>
-                        </div> 
-                    </div>
-                    <p class="text-center hidden md:mt-8 mt-4 text-gray-500">CASA VERDE 2F , 3-40-17 Sendagi, Bunkyo-ku, Tokyo
-                    </p> 
-                </div>
-            </div>
-        </div>
+    <div class="flex items-end justify-end">
+        <i id="mobileMenuCloseBtn" class="fa-solid fa-x z-50 relative ml-auto p-5 text-2xl cursor-pointer"></i>
     </div>
+    <ul class="flex relative z-50 flex-col p-10 gap-7">
+        <li> <a href="./index.html" class=" hover:text-[#59312c] md:text-lg transition-all duration-500">Home</a>
+        </li>
+        <li> <a href="./treatments.html"
+                class=" hover:text-[#59312c] md:text-lg transition-all duration-500">Treatments</a>
+        </li>
+        <li> <a href="./testimonials.html"
+                class=" hover:text-[#59312c] md:text-lg transition-all duration-500">Testimonials</a></li>
+        <li> <a href="./publications.html"
+                class=" hover:text-[#59312c] md:text-lg transition-all duration-500">Publications</a></li>
+        <li> <a href="./case-reports.html" class=" hover:text-[#59312c] md:text-lg transition-all duration-500">Case
+                Reports</a></li>
+        <li> <a href="./about.html" class=" hover:text-[#59312c] md:text-lg transition-all duration-500">About</a>
+        </li>
+        <li> <a href="./fees.html" class=" hover:text-[#59312c] md:text-lg transition-all duration-500">Fees</a>
+        </li>
+        <li> <a href="./contact.html" class=" hover:text-[#59312c] md:text-lg transition-all duration-500">Contact</a>
+        </li>
+    </ul>
+</div>
+<div class="md:h-24 h-40"></div>
+
 `
 
-const closeNav = document.getElementById("closeNav")
-const openNav = document.getElementById("openNav")
-const resNav = document.getElementById("resNav")
+const openNav = document.getElementById("openNav");
+const mobileMenu = document.getElementById("mobileMenu");
+const mobileMenuCloseBtn = document.getElementById("mobileMenuCloseBtn");
+const mobileMenuBg = document.getElementById("mobileMenuBg");
 
-openNav.addEventListener('click', () => {
-    resNav.classList.add("block")
-    resNav.classList.remove("hidden")
-})
-closeNav.addEventListener('click', () => {
-    resNav.classList.remove("block")
-    resNav.classList.add("hidden")
-})
+openNav.addEventListener("click", () => {
+    mobileMenu.style.width = "100%";
+    mobileMenuBg.style.width = "100vw";
+});
+
+mobileMenuCloseBtn.addEventListener("click", () => {
+    mobileMenu.style.width = "0";
+    mobileMenuBg.style.width = "0";
+});
+
+mobileMenuBg.addEventListener("click", () => {
+    mobileMenu.style.width = "0";
+    mobileMenuBg.style.width = "0";
+});
