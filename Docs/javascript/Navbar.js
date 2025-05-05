@@ -2,12 +2,12 @@ const navbar = document.getElementById("navbar")
 
 navbar.innerHTML = `
        <div class="w-full">
-        <div class="bg-white w-full md:h-24 h-20 flex items-center justify-center ">
-            <div class="flex items-center justify-between max-w-7xl w-full mx-auto p-5">
+        <div class="bg-white flex-col w-full md:h-24 h-40 flex items-center justify-center ">
+            <div class="flex items-center justify-between max-w-7xl w-full mx-auto md:p-5 p-3">
                 <a href="./index.html">
                     <img src="/Docs/Assets/main-logo.png" class="md:h-12 h-8" alt="">
                 </a>
-                <div class="flex items-center gap-5 lg:w-full justify-end">
+                <div class="flex items-center md:gap-5 gap-1 lg:w-full justify-end">
                     <div class="lg:block hidden text-gray-700">
                         <a href="tel:+6048323568" class="flex text-[15px] items-center gap-2 hover:underline"><i
                                 class="fa-solid fa-phone"></i> 604-832-3568</a>
@@ -15,18 +15,32 @@ navbar.innerHTML = `
                             class="flex text-[15px] items-center gap-2 hover:underline mt-1.5"> <i
                                 class="fa-regular text-lg fa-envelope"></i> tcmclinic12@gmail.com</a>
                     </div>
-                    <a href="">
+                    <a href="/contact.html">
                         <button
-                            class=" p-3 w-full lg:block hidden bg-[#59312c] text-white rounded-sm transition-all duration-500 hover:opacity-80 cursor-pointer text-nowrap">Book
+                            class="md:block hidden md:p-3 p-2 w-full bg-[#59312c] text-white rounded-sm transition-all duration-500 hover:opacity-80 cursor-pointer text-nowrap">Book
                             Now</button>
                     </a>
                     <div class="flex flex-col mt-2 ml-3 justify-center items-center text-[#59312c] cursor-pointer"
                         id="openNav">
-                        <div class="w-12 rounded-full h-0.5 bg-[#59312c]"></div>
-                        <div class="w-12 rounded-full h-0.5 mt-1.5 mb-1 bg-[#59312c]"></div>
-                        <p>Menu</p>
+                        <div class="md:w-12 w-10 rounded-full h-0.5 bg-[#59312c]"></div>
+                        <div class="md:w-12 w-10 rounded-full h-0.5 mt-1.5 mb-1 bg-[#59312c]"></div>
+                        <p class="md:text-[16px] text-sm">Menu</p>
                     </div>
                 </div>
+            </div>
+            <div class="md:hidden flex items-center justify-between max-w-7xl w-full mx-auto md:p-5 p-3">
+                    <div class=" text-gray-700 text-sm">
+                        <a href="tel:+6048323568" class="flex items-center gap-2 hover:underline"><i
+                                class="fa-solid fa-phone"></i> 604-832-3568</a>
+                        <a href="mailto:tcmclinic12@gmail.com"
+                            class="flex items-center gap-2 hover:underline mt-1.5"> <i
+                                class="fa-regular text-lg fa-envelope"></i> tcmclinic12@gmail.com</a>
+                    </div>
+                    <a href="/contact.html">
+                        <button
+                            class=" md:p-3 p-2 w-full bg-[#59312c] text-white rounded-sm transition-all duration-500 hover:opacity-80 cursor-pointer text-nowrap">Book
+                            Now</button>
+                    </a>
             </div>
         </div>
     </div>
@@ -78,18 +92,18 @@ navbar.innerHTML = `
                     </ul>
  
                     <div class="max-w-[20rem] lg:hidden block w-full md:mt-10 mt-8">
-                        <a href="">
+                        <a href="/contact.html">
                             <button
                                 class="md:p-3.5 p-3 w-full bg-[#59312c] text-white rounded-sm font-medium text-lg transition-all duration-500 hover:opacity-80 cursor-pointer">Book
                                 Now</button>
-                        </a>
+                        </a> 
                         <div class="text-gray-700 mt-5">
                             <a href="tel:+6048323568" class="flex text-[15px] justify-center items-center gap-2 hover:underline"><i
                                     class="fa-solid fa-phone"></i> 604-832-3568</a>
                             <a href="mailto:tcmclinic12@gmail.com"
                                 class="flex text-[15px] items-center gap-2 hover:underline justify-center mt-1.5"> <i
                                     class="fa-regular text-lg fa-envelope"></i> tcmclinic12@gmail.com</a>
-                        </div>
+                        </div> 
                     </div>
                     <p class="text-center hidden md:mt-8 mt-4 text-gray-500">CASA VERDE 2F , 3-40-17 Sendagi, Bunkyo-ku, Tokyo
                     </p> 
