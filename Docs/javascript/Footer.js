@@ -23,7 +23,7 @@ footer.innerHTML = `
             </ul>
         </div>
 
-            <div class="flex max-w-7xl w-full items-start mx-auto justify-between md:flex-row flex-col flex-wrap w-full gap-10">
+            <div class="flex max-w-7xl w-full md:items-start items-center mx-auto justify-between md:flex-row flex-col flex-wrap w-full gap-10">
 
                 <div class="">
                     <img src="./Docs/Assets/home/map.jpg" class="md:w-96 w-full" alt="">
