@@ -66,43 +66,6 @@ input:user-invalid {
     border: 1.5px solid rgba(255, 0, 0, 0.416);
 }
 
-@keyframes appear {
-    from {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    
-    to {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes imgAppear {
-    from {
-        opacity: 0;
-        clip-path: inset(100% 100% 0 0);
-    }
-    
-    to {
-        transform: translateY(0px);
-        clip-path: inset(0 0 0 0);
-        opacity: 1;
-    }
-}
-
-.default {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 20%;
-}
-
-.imgAppear {
-    animation: imgAppear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-}
-
 .swiper {
     width: 100%;
     height: 100%;
@@ -115,7 +78,7 @@ input:user-invalid {
 }
 
 .slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/home/slide-1.jpg);
+    background: linear-gradient(rgba(255, 0, 0, 0.164), rgba(206, 7, 7, 0.397));
 }
 
 .slide2 {
@@ -137,8 +100,9 @@ input:user-invalid {
 /* -------------- */
 
 .bgtreatments {
-    background: linear-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.603)), url(/Docs/Assets/Treatment_banner.jpg) center/cover no-repeat;
-}
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Docs/Assets/Treatment_banner.jpg) center/cover no-repeat;
+  }
+  
 
 .bgPatientTestimonials {
     background: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.493)), url(/Docs/Assets/PatientTestimonials.avif) center/cover no-repeat;

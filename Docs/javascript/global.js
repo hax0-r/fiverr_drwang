@@ -29,3 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 });
+
+AOS.init({
+    once: true,
+    duration: 1000
+});

@@ -5,9 +5,9 @@ navbar.innerHTML = `
         <div class="bg-white flex-col w-full md:h-24 h-40 flex items-center justify-center ">
             <div class="flex items-center justify-between max-w-7xl w-full mx-auto md:p-5 p-3">
                 <a href="./index.html" class="w-full max-w-[20rem]">
-                    <img src="/Docs/Assets/main-logo.png" class="md:h-12 h-8" alt="">
+                    <img src="/Docs/Assets/main-logo.png" data-aos="zoom-out-right" class="md:h-12 h-8" alt="">
                 </a>
-                <div class="flex items-center md:gap-5 gap-1 lg:w-full justify-end">
+                <div data-aos="zoom-out-left" class="flex items-center md:gap-5 gap-1 lg:w-full justify-end">
                     <div class="lg:block hidden text-gray-700">
                         <a href="tel:+6048323568" class="flex text-[15px] items-center gap-2 hover:underline"><i
                                 class="fa-solid fa-phone"></i> 604-832-3568</a>

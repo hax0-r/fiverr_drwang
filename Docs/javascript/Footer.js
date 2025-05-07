@@ -26,7 +26,7 @@ footer.innerHTML = `
             <div class="flex max-w-7xl w-full md:items-start items-center mx-auto justify-between md:flex-row flex-col flex-wrap w-full gap-10">
 
                 <div class="">
-                    <img src="./Docs/Assets/home/map.jpg" class="md:w-96 w-full imgAppear" alt="">
+                    <img src="./Docs/Assets/home/map.jpg" data-aos="fade" class="md:w-96 w-full imgAppear" alt="">
                 </div>
 
                 <div class="flex flex-col items-center justify-center gap-2 ">
@@ -45,7 +45,7 @@ footer.innerHTML = `
 
                 <div class="flex flex-col items-center justify-center gap-2 ">
 
-                    <div class="flex mb-5 items-center justify-center">
+                    <div data-aos="zoom-in" class="flex mb-5 items-center justify-center">
                         <a href="https://www.google.com/search?q=acupuncture+surrey&oq=acup&gs_lcrp=EgZjaHJvbWUqDAgBECMYJxiABBiKBTIGCAAQRRg5MgwIARAjGCcYgAQYigUyDAgCECMYJxiABBiKBTIGCAMQRRg9MgYIBBBFGD0yBggFEEUYPDISCAYQABhDGLEDGMkDGIAEGIoFMgoIBxAAGJIDGIAEMgoICBAAGLEDGIAEMhAICRAuGK8BGMcBGLoCGIAEMgcIChAAGIAEMgcICxAAGIAEMgoIDBAAGLEDGIAEMgoIDRAAGLEDGIAEMgcIDhAAGIAE0gEHODU4ajBqOagCDrACAfEFz-cs9E1geSzxBc_nLPRNYHks&client=ms-android-samsung-ss&sourceid=chrome-mobile&ie=UTF-8#vhid=/g/11b62t81cz&vssid=lcl"
                             target="_blank"
                             class="flex items-center space-x-3 hover:opacity-70 transition-all duration-500">
@@ -67,7 +67,7 @@ footer.innerHTML = `
                         </a>
                     </div>
                     <a href="/index.html" class="">
-                        <img src="/Docs/Assets/home/award-2017-orange.png" class="md:h-52 imgAppear w-full" alt="">
+                        <img src="/Docs/Assets/home/award-2017-orange.png" data-aos="fade" class="md:h-52 imgAppear w-full" alt="">
                     </a>
 
 
