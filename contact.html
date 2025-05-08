@@ -23,10 +23,6 @@
     <section class="md:py-40 py-20 bgContact">
         <h2 class="text-white font-medium text-center md:text-6xl text-4xl opacity-0 slidein [--slidein-delay:200ms]">
             Contact Us</h2>
-        <div
-            class="text-center [text-shadow:_0_4px_8px_#fff] text-[#fff] opacity-0 slidein [--slidein-delay:400ms] mt-2 gap-3">
-            Contact Us
-        </div>
     </section>
 
     <section class="max-w-7xl w-full mx-auto p-5 md:mt-16 mt-5">
@@ -35,7 +31,8 @@
         <p class="md:text-lg text-gray-700 text-center default" data-aos="fade-up">General Inquiries will be responded
             within 24 hours. Please call us directly
             by phone if you do not receive a reply.</p>
-        <form action="" class="max-w-3xl w-full mx-auto md:mt-12 mt-8">
+        <form action="https://api.web3forms.com/submit" method="POST" class="max-w-3xl w-full mx-auto md:mt-12 mt-8">
+            <input type="hidden" name="access_key" value="f5702672-8dc4-40ce-b51c-915c8efcd987">
             <input data-aos="fade-up" type="text" class="w-full py-3 px-5 rounded-2xl default border border-gray-400"
                 placeholder="Enter Name" name="name">
             <input data-aos="fade-up" type="email"
