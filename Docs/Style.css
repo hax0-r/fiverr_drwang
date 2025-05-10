@@ -113,7 +113,7 @@ input:user-invalid {
 }
 
 .bgAbout {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Docs/Assets/about.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Docs/Assets/about2.jpg) center/cover no-repeat;
 }
 
 .bgTreatmentRateSchedule {
@@ -125,7 +125,7 @@ input:user-invalid {
 }
 
 .bgContact {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Docs/Assets/Contact.avif) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/Docs/Assets/contactUs.jpg) center/cover no-repeat;
 }
 
 .bgCaseReports {
